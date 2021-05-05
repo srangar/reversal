@@ -1,0 +1,15 @@
+
+idl compatibility report:
+Compatible changes:
+  1) New resource is created in "/Users/srini/Documents/reverse-restli/server/src/mainGeneratedRest/snapshot/com.srini.reversal.reverse.snapshot.json"
+  2) New resource is created in "/Users/srini/Documents/reverse-restli/server/src/mainGeneratedRest/snapshot/com.srini.reversal.check.snapshot.json"
+  3) New resource is created in "/Users/srini/Documents/reverse-restli/server/src/mainGeneratedRest/idl/com.srini.reversal.reverse.restspec.json"
+  4) New resource is created in "/Users/srini/Documents/reverse-restli/server/src/mainGeneratedRest/idl/com.srini.reversal.check.restspec.json"
+
+[RS-COMPAT]: true
+[MD-COMPAT]: true
+[RS-C]:New resource is created in "/Users/srini/Documents/reverse-restli/server/src/mainGeneratedRest/snapshot/com.srini.reversal.reverse.snapshot.json"
+[RS-C]:New resource is created in "/Users/srini/Documents/reverse-restli/server/src/mainGeneratedRest/snapshot/com.srini.reversal.check.snapshot.json"
+[RS-C]:New resource is created in "/Users/srini/Documents/reverse-restli/server/src/mainGeneratedRest/idl/com.srini.reversal.reverse.restspec.json"
+[RS-C]:New resource is created in "/Users/srini/Documents/reverse-restli/server/src/mainGeneratedRest/idl/com.srini.reversal.check.restspec.json"
+

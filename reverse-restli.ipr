@@ -18,6 +18,7 @@
     <option name="SKIP_IMPORT_STATEMENTS" value="false" />
   </component>
   <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="GradleMigrationSettings" migrationVersion="1" />
   <component name="GradleSettings">
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
@@ -59,9 +60,12 @@
       <module fileurl="file://$PROJECT_DIR$/api/reverse-restli.api.iml" filepath="$PROJECT_DIR$/api/reverse-restli.api.iml" />
       <module fileurl="file://$PROJECT_DIR$/api/reverse-restli.api.main.iml" filepath="$PROJECT_DIR$/api/reverse-restli.api.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/api/reverse-restli.api.mainGeneratedDataTemplate.iml" filepath="$PROJECT_DIR$/api/reverse-restli.api.mainGeneratedDataTemplate.iml" />
+      <module fileurl="file://$PROJECT_DIR$/api/reverse-restli.api.mainGeneratedRest.iml" filepath="$PROJECT_DIR$/api/reverse-restli.api.mainGeneratedRest.iml" />
       <module fileurl="file://$PROJECT_DIR$/api/reverse-restli.api.test.iml" filepath="$PROJECT_DIR$/api/reverse-restli.api.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/api/reverse-restli.api.testGeneratedDataTemplate.iml" filepath="$PROJECT_DIR$/api/reverse-restli.api.testGeneratedDataTemplate.iml" />
       <module fileurl="file://$PROJECT_DIR$/client/reverse-restli.client.iml" filepath="$PROJECT_DIR$/client/reverse-restli.client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/client/reverse-restli.client.main.iml" filepath="$PROJECT_DIR$/client/reverse-restli.client.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/client/reverse-restli.client.test.iml" filepath="$PROJECT_DIR$/client/reverse-restli.client.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/server/reverse-restli.server.iml" filepath="$PROJECT_DIR$/server/reverse-restli.server.iml" />
       <module fileurl="file://$PROJECT_DIR$/server/reverse-restli.server.main.iml" filepath="$PROJECT_DIR$/server/reverse-restli.server.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/server/reverse-restli.server.mainGeneratedDataTemplate.iml" filepath="$PROJECT_DIR$/server/reverse-restli.server.mainGeneratedDataTemplate.iml" />

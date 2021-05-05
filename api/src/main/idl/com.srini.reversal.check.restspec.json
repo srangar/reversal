@@ -1,0 +1,94 @@
+{
+  "name" : "check",
+  "namespace" : "com.srini.reversal",
+  "path" : "/check",
+  "schema" : "com.srini.reversal.StringCheck",
+  "doc" : "Simple Rest.li Resource that serves up a reversed word\n\ngenerated from: com.srini.reversal.CheckResource",
+  "simple" : {
+    "supports" : [ ],
+    "entity" : {
+      "path" : "/check",
+      "subresources" : [ {
+        "name" : "anagram",
+        "namespace" : "com.srini.reversal",
+        "path" : "/check/anagram",
+        "schema" : "com.srini.reversal.StringCheck",
+        "doc" : "Simple Rest.li Resource that serves up a reversed word\n\ngenerated from: com.srini.reversal.AnagramCheckResource",
+        "collection" : {
+          "identifier" : {
+            "name" : "anagramId",
+            "type" : "string"
+          },
+          "supports" : [ "get" ],
+          "methods" : [ {
+            "method" : "get",
+            "parameters" : [ {
+              "name" : "comparison",
+              "type" : "string"
+            } ]
+          } ],
+          "entity" : {
+            "path" : "/check/anagram/{anagramId}"
+          }
+        }
+      }, {
+        "name" : "lowercase",
+        "namespace" : "com.srini.reversal",
+        "path" : "/check/lowercase",
+        "schema" : "com.srini.reversal.StringCheck",
+        "doc" : "Simple Rest.li Resource that serves up a reversed word\n\ngenerated from: com.srini.reversal.LowercaseCheckResource",
+        "collection" : {
+          "identifier" : {
+            "name" : "lowercaseId",
+            "type" : "string"
+          },
+          "supports" : [ "get" ],
+          "methods" : [ {
+            "method" : "get"
+          } ],
+          "entity" : {
+            "path" : "/check/lowercase/{lowercaseId}"
+          }
+        }
+      }, {
+        "name" : "palindrome",
+        "namespace" : "com.srini.reversal",
+        "path" : "/check/palindrome",
+        "schema" : "com.srini.reversal.StringCheck",
+        "doc" : "Simple Rest.li Resource that serves up a reversed word\n\ngenerated from: com.srini.reversal.PalindromeCheckResource",
+        "collection" : {
+          "identifier" : {
+            "name" : "palindromeId",
+            "type" : "string"
+          },
+          "supports" : [ "get" ],
+          "methods" : [ {
+            "method" : "get"
+          } ],
+          "entity" : {
+            "path" : "/check/palindrome/{palindromeId}"
+          }
+        }
+      }, {
+        "name" : "uppercase",
+        "namespace" : "com.srini.reversal",
+        "path" : "/check/uppercase",
+        "schema" : "com.srini.reversal.StringCheck",
+        "doc" : "Simple Rest.li Resource that serves up a reversed word\n\ngenerated from: com.srini.reversal.UppercaseCheckResource",
+        "collection" : {
+          "identifier" : {
+            "name" : "uppercaseId",
+            "type" : "string"
+          },
+          "supports" : [ "get" ],
+          "methods" : [ {
+            "method" : "get"
+          } ],
+          "entity" : {
+            "path" : "/check/uppercase/{uppercaseId}"
+          }
+        }
+      } ]
+    }
+  }
+}
