@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cd40143d-a154-47b8-add2-017332ac2040" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/server/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/server/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/com/srini/reversal/LowercaseCheckResource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/com/srini/reversal/StringOperator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/com/srini/reversal/UppercaseCheckResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/reverse-restli.iws" beforeDir="false" afterPath="$PROJECT_DIR$/reverse-restli.iws" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/srini/reversal/PalindromeCheckResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/com/srini/reversal/PalindromeCheckResource.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -321,22 +325,26 @@
       <screen x="0" y="23" width="1440" height="837" />
     </state>
     <state x="458" y="187" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.837@0.23.1440.837" timestamp="1620184923264" />
-    <state width="1358" height="198" key="GridCell.Tab.0.bottom" timestamp="1620184997016">
+    <state x="288" y="23" width="863" height="837" key="CommitChangelistDialog2" timestamp="1620185580044">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
-    <state width="1358" height="198" key="GridCell.Tab.0.bottom/0.23.1440.837@0.23.1440.837" timestamp="1620184997016" />
-    <state width="1358" height="198" key="GridCell.Tab.0.center" timestamp="1620184997015">
+    <state x="288" y="23" width="863" height="837" key="CommitChangelistDialog2/0.23.1440.837@0.23.1440.837" timestamp="1620185580044" />
+    <state width="1358" height="198" key="GridCell.Tab.0.bottom" timestamp="1620185638420">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
-    <state width="1358" height="198" key="GridCell.Tab.0.center/0.23.1440.837@0.23.1440.837" timestamp="1620184997015" />
-    <state width="1358" height="198" key="GridCell.Tab.0.left" timestamp="1620184997014">
+    <state width="1358" height="198" key="GridCell.Tab.0.bottom/0.23.1440.837@0.23.1440.837" timestamp="1620185638420" />
+    <state width="1358" height="198" key="GridCell.Tab.0.center" timestamp="1620185638419">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
-    <state width="1358" height="198" key="GridCell.Tab.0.left/0.23.1440.837@0.23.1440.837" timestamp="1620184997014" />
-    <state width="1358" height="198" key="GridCell.Tab.0.right" timestamp="1620184997016">
+    <state width="1358" height="198" key="GridCell.Tab.0.center/0.23.1440.837@0.23.1440.837" timestamp="1620185638419" />
+    <state width="1358" height="198" key="GridCell.Tab.0.left" timestamp="1620185638418">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
-    <state width="1358" height="198" key="GridCell.Tab.0.right/0.23.1440.837@0.23.1440.837" timestamp="1620184997016" />
+    <state width="1358" height="198" key="GridCell.Tab.0.left/0.23.1440.837@0.23.1440.837" timestamp="1620185638418" />
+    <state width="1358" height="198" key="GridCell.Tab.0.right" timestamp="1620185638419">
+      <screen x="0" y="23" width="1440" height="837" />
+    </state>
+    <state width="1358" height="198" key="GridCell.Tab.0.right/0.23.1440.837@0.23.1440.837" timestamp="1620185638419" />
     <state width="1358" height="247" key="GridCell.Tab.1.bottom" timestamp="1620184535010">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
@@ -357,5 +365,9 @@
       <screen x="0" y="23" width="1440" height="837" />
     </state>
     <state x="421" y="188" width="598" height="490" key="find.popup/0.23.1440.837@0.23.1440.837" timestamp="1620181265904" />
+    <state x="385" y="184" width="670" height="676" key="search.everywhere.popup" timestamp="1620185472370">
+      <screen x="0" y="23" width="1440" height="837" />
+    </state>
+    <state x="385" y="184" width="670" height="676" key="search.everywhere.popup/0.23.1440.837@0.23.1440.837" timestamp="1620185472370" />
   </component>
 </project>
