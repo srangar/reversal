@@ -1,0 +1,1 @@
+Simple GET /reverse/{word} REST API written using rest.li
