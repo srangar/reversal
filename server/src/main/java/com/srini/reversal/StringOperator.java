@@ -1,5 +1,8 @@
 package com.srini.reversal;
 
+import java.util.Arrays;
+
+
 public class StringOperator {
     private String word;
 
@@ -37,5 +40,17 @@ public class StringOperator {
         return this.word.equals(sbuilder.toString());
     }
 
+    public boolean isAnagram(String string2) {
+        if (this.word.length() != string2.length()) {
+            return false;
+        }
 
+        char[] a1 = this.word.toCharArray();
+        char[] a2 = string2.toCharArray();
+
+        Arrays.sort(a1);
+        Arrays.sort(a2);
+
+        return Arrays.equals(a1, a2);
+    }
 }

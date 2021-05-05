@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cd40143d-a154-47b8-add2-017332ac2040" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/server/src/main/java/com/srini/reversal/LowercaseCheckResource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/java/com/srini/reversal/StringOperator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/main/java/com/srini/reversal/UppercaseCheckResource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/com/srini/reversal/AnagramCheckResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/reverse-restli.iws" beforeDir="false" afterPath="$PROJECT_DIR$/reverse-restli.iws" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/srini/reversal/PalindromeCheckResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/com/srini/reversal/PalindromeCheckResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/srini/reversal/StringOperator.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/com/srini/reversal/StringOperator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -131,6 +130,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="JAVA" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/server/src/main/java/com/srini/reversal" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -329,22 +329,26 @@
       <screen x="0" y="23" width="1440" height="837" />
     </state>
     <state x="288" y="23" width="863" height="837" key="CommitChangelistDialog2/0.23.1440.837@0.23.1440.837" timestamp="1620185580044" />
-    <state width="1358" height="198" key="GridCell.Tab.0.bottom" timestamp="1620185638420">
-      <screen x="0" y="23" width="1440" height="837" />
+    <state width="1358" height="198" key="GridCell.Tab.0.bottom" timestamp="1620197947117">
+      <screen x="0" y="23" width="1440" height="836" />
     </state>
-    <state width="1358" height="198" key="GridCell.Tab.0.bottom/0.23.1440.837@0.23.1440.837" timestamp="1620185638420" />
-    <state width="1358" height="198" key="GridCell.Tab.0.center" timestamp="1620185638419">
-      <screen x="0" y="23" width="1440" height="837" />
+    <state width="1358" height="198" key="GridCell.Tab.0.bottom/0.23.1440.836@0.23.1440.836" timestamp="1620197947117" />
+    <state width="1358" height="198" key="GridCell.Tab.0.bottom/0.23.1440.837@0.23.1440.837" timestamp="1620194940282" />
+    <state width="1358" height="198" key="GridCell.Tab.0.center" timestamp="1620197947117">
+      <screen x="0" y="23" width="1440" height="836" />
     </state>
-    <state width="1358" height="198" key="GridCell.Tab.0.center/0.23.1440.837@0.23.1440.837" timestamp="1620185638419" />
-    <state width="1358" height="198" key="GridCell.Tab.0.left" timestamp="1620185638418">
-      <screen x="0" y="23" width="1440" height="837" />
+    <state width="1358" height="198" key="GridCell.Tab.0.center/0.23.1440.836@0.23.1440.836" timestamp="1620197947117" />
+    <state width="1358" height="198" key="GridCell.Tab.0.center/0.23.1440.837@0.23.1440.837" timestamp="1620194940280" />
+    <state width="1358" height="198" key="GridCell.Tab.0.left" timestamp="1620197947116">
+      <screen x="0" y="23" width="1440" height="836" />
     </state>
-    <state width="1358" height="198" key="GridCell.Tab.0.left/0.23.1440.837@0.23.1440.837" timestamp="1620185638418" />
-    <state width="1358" height="198" key="GridCell.Tab.0.right" timestamp="1620185638419">
-      <screen x="0" y="23" width="1440" height="837" />
+    <state width="1358" height="198" key="GridCell.Tab.0.left/0.23.1440.836@0.23.1440.836" timestamp="1620197947116" />
+    <state width="1358" height="198" key="GridCell.Tab.0.left/0.23.1440.837@0.23.1440.837" timestamp="1620194940280" />
+    <state width="1358" height="198" key="GridCell.Tab.0.right" timestamp="1620197947117">
+      <screen x="0" y="23" width="1440" height="836" />
     </state>
-    <state width="1358" height="198" key="GridCell.Tab.0.right/0.23.1440.837@0.23.1440.837" timestamp="1620185638419" />
+    <state width="1358" height="198" key="GridCell.Tab.0.right/0.23.1440.836@0.23.1440.836" timestamp="1620197947117" />
+    <state width="1358" height="198" key="GridCell.Tab.0.right/0.23.1440.837@0.23.1440.837" timestamp="1620194940281" />
     <state width="1358" height="247" key="GridCell.Tab.1.bottom" timestamp="1620184535010">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
@@ -361,6 +365,10 @@
       <screen x="0" y="23" width="1440" height="837" />
     </state>
     <state width="1358" height="247" key="GridCell.Tab.1.right/0.23.1440.837@0.23.1440.837" timestamp="1620184535009" />
+    <state x="221" y="72" key="SettingsEditor" timestamp="1620197876413">
+      <screen x="0" y="23" width="1440" height="836" />
+    </state>
+    <state x="221" y="72" key="SettingsEditor/0.23.1440.836@0.23.1440.836" timestamp="1620197876413" />
     <state x="421" y="188" width="598" height="490" key="find.popup" timestamp="1620181265904">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
