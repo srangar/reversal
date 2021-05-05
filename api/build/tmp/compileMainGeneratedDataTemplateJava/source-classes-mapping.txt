@@ -1,3 +1,6 @@
 com/srini/reversal/ReversedWord.java
  com.srini.reversal.ReversedWord
  com.srini.reversal.ReversedWord$Fields
+com/srini/reversal/StringCheck.java
+ com.srini.reversal.StringCheck
+ com.srini.reversal.StringCheck$Fields

@@ -1,0 +1,10 @@
+{
+  "type" : "record",
+  "name" : "StringCheck",
+  "namespace" : "com.srini.reversal",
+  "doc" : "Generate a StringCheck Response",
+  "fields" : [ {
+    "name" : "isValid",
+    "type" : "boolean"
+  } ]
+}

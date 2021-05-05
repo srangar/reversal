@@ -1,0 +1,9 @@
+namespace com.srini.reversal
+
+/**
+ * Generate a StringCheck Response
+ */
+
+record StringCheck {
+  isValid: boolean
+}

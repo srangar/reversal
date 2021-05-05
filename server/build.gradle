@@ -8,7 +8,7 @@ dependencies {
   compile spec.product.pegasus.restliNettyStandalone
 }
 
-task startReversalServer(type: JavaExec) {
+task startOpsServer(type: JavaExec) {
   main = 'com.linkedin.restli.server.NettyStandaloneLauncher'
   args = ['-port', '8080', '-packages', 'com.srini.reversal']
   classpath = sourceSets.main.runtimeClasspath

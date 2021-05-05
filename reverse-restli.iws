@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cd40143d-a154-47b8-add2-017332ac2040" name="Default Changelist" comment="" />
+    <list default="true" id="cd40143d-a154-47b8-add2-017332ac2040" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/server/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/server/build.gradle" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -58,6 +60,9 @@
         <task path="$PROJECT_DIR$">
           <activation />
         </task>
+        <task path="$PROJECT_DIR$/api">
+          <activation />
+        </task>
         <projects_view>
           <tree_state>
             <expand>
@@ -83,6 +88,16 @@
       </state>
     </system>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ModuleEditorState">
     <option name="LAST_EDITED_MODULE_NAME" />
     <option name="LAST_EDITED_TAB_NAME" />
@@ -93,6 +108,7 @@
       <profile-state />
     </entry>
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectReloadState">
     <option name="STATE" value="0" />
   </component>
@@ -110,9 +126,20 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="JAVA" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/server/src/main/java/com/srini/reversal" />
   </component>
-  <component name="RunManager" selected="Gradle.reverse-restli [startReversalServer]">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/server/src/main/java/com/srini/reversal" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.srini.reversal" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/api/src/main/pegasus/com/srini/reversal" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Gradle.reverse-restli [startOpsServer]">
     <configuration default="true" type="Applet" factoryName="Applet">
       <module name="" />
       <option name="MAIN_CLASS_NAME" />
@@ -159,6 +186,25 @@
       <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
       <method v="2" />
     </configuration>
+    <configuration name="reverse-restli [startOpsServer]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="startOpsServer" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
     <configuration name="reverse-restli [startReversalServer]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -171,6 +217,44 @@
         <option name="taskNames">
           <list>
             <option value="startReversalServer" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="reverse-restli:api [assemble]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/api" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="assemble" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <configuration name="reverse-restli:api [mainGeneratedDataTemplateClasses]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/api" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="mainGeneratedDataTemplateClasses" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -203,7 +287,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.reverse-restli [startOpsServer]" />
         <item itemvalue="Gradle.reverse-restli [startReversalServer]" />
+        <item itemvalue="Gradle.reverse-restli:api [mainGeneratedDataTemplateClasses]" />
+        <item itemvalue="Gradle.reverse-restli:api [assemble]" />
         <item itemvalue="Gradle.reverse-restli [startFortunesServer]" />
       </list>
     </recent_temporary>
@@ -226,26 +313,46 @@
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="440" y="242" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1620180454594">
+    <state x="440" y="242" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1620183586045">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
-    <state x="440" y="242" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.837@0.23.1440.837" timestamp="1620180454594" />
-    <state width="1358" height="199" key="GridCell.Tab.0.bottom" timestamp="1620181578868">
+    <state x="440" y="242" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.837@0.23.1440.837" timestamp="1620183586045" />
+    <state x="458" y="187" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1620184923264">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
-    <state width="1358" height="199" key="GridCell.Tab.0.bottom/0.23.1440.837@0.23.1440.837" timestamp="1620181578868" />
-    <state width="1358" height="199" key="GridCell.Tab.0.center" timestamp="1620181578867">
+    <state x="458" y="187" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1440.837@0.23.1440.837" timestamp="1620184923264" />
+    <state width="1358" height="198" key="GridCell.Tab.0.bottom" timestamp="1620184997016">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
-    <state width="1358" height="199" key="GridCell.Tab.0.center/0.23.1440.837@0.23.1440.837" timestamp="1620181578867" />
-    <state width="1358" height="199" key="GridCell.Tab.0.left" timestamp="1620181578866">
+    <state width="1358" height="198" key="GridCell.Tab.0.bottom/0.23.1440.837@0.23.1440.837" timestamp="1620184997016" />
+    <state width="1358" height="198" key="GridCell.Tab.0.center" timestamp="1620184997015">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
-    <state width="1358" height="199" key="GridCell.Tab.0.left/0.23.1440.837@0.23.1440.837" timestamp="1620181578866" />
-    <state width="1358" height="199" key="GridCell.Tab.0.right" timestamp="1620181578867">
+    <state width="1358" height="198" key="GridCell.Tab.0.center/0.23.1440.837@0.23.1440.837" timestamp="1620184997015" />
+    <state width="1358" height="198" key="GridCell.Tab.0.left" timestamp="1620184997014">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
-    <state width="1358" height="199" key="GridCell.Tab.0.right/0.23.1440.837@0.23.1440.837" timestamp="1620181578867" />
+    <state width="1358" height="198" key="GridCell.Tab.0.left/0.23.1440.837@0.23.1440.837" timestamp="1620184997014" />
+    <state width="1358" height="198" key="GridCell.Tab.0.right" timestamp="1620184997016">
+      <screen x="0" y="23" width="1440" height="837" />
+    </state>
+    <state width="1358" height="198" key="GridCell.Tab.0.right/0.23.1440.837@0.23.1440.837" timestamp="1620184997016" />
+    <state width="1358" height="247" key="GridCell.Tab.1.bottom" timestamp="1620184535010">
+      <screen x="0" y="23" width="1440" height="837" />
+    </state>
+    <state width="1358" height="247" key="GridCell.Tab.1.bottom/0.23.1440.837@0.23.1440.837" timestamp="1620184535010" />
+    <state width="1358" height="247" key="GridCell.Tab.1.center" timestamp="1620184535009">
+      <screen x="0" y="23" width="1440" height="837" />
+    </state>
+    <state width="1358" height="247" key="GridCell.Tab.1.center/0.23.1440.837@0.23.1440.837" timestamp="1620184535009" />
+    <state width="1358" height="247" key="GridCell.Tab.1.left" timestamp="1620184535008">
+      <screen x="0" y="23" width="1440" height="837" />
+    </state>
+    <state width="1358" height="247" key="GridCell.Tab.1.left/0.23.1440.837@0.23.1440.837" timestamp="1620184535008" />
+    <state width="1358" height="247" key="GridCell.Tab.1.right" timestamp="1620184535009">
+      <screen x="0" y="23" width="1440" height="837" />
+    </state>
+    <state width="1358" height="247" key="GridCell.Tab.1.right/0.23.1440.837@0.23.1440.837" timestamp="1620184535009" />
     <state x="421" y="188" width="598" height="490" key="find.popup" timestamp="1620181265904">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
