@@ -1,0 +1,20 @@
+{
+  "name" : "decrypt",
+  "namespace" : "com.srini.reversal",
+  "path" : "/decrypt",
+  "schema" : "com.srini.reversal.Decrypted",
+  "doc" : "Simple Rest.li Resource that serves up a encrypted word\n\ngenerated from: com.srini.reversal.DecryptResource",
+  "collection" : {
+    "identifier" : {
+      "name" : "decryptId",
+      "type" : "string"
+    },
+    "supports" : [ "get" ],
+    "methods" : [ {
+      "method" : "get"
+    } ],
+    "entity" : {
+      "path" : "/decrypt/{decryptId}"
+    }
+  }
+}

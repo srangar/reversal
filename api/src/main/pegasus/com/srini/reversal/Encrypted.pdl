@@ -1,0 +1,12 @@
+namespace com.srini.reversal
+
+/**
+ * Generate a Reversed Word Response
+ */
+record Encrypted {
+
+  /**
+   * The Encrypted String
+   */
+  encrypted: string
+}

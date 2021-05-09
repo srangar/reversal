@@ -1,0 +1,33 @@
+{
+  "models" : [ {
+    "type" : "record",
+    "name" : "ReversedWord",
+    "namespace" : "com.srini.reversal",
+    "doc" : "Generate a Reversed Word Response",
+    "fields" : [ {
+      "name" : "reversed",
+      "type" : "string",
+      "doc" : "The Reversed String"
+    } ]
+  } ],
+  "schema" : {
+    "name" : "reverse",
+    "namespace" : "com.srini.reversal",
+    "path" : "/reverse",
+    "schema" : "com.srini.reversal.ReversedWord",
+    "doc" : "Simple Rest.li Resource that serves up a reversed word\n\ngenerated from: com.srini.reversal.ReversalResource",
+    "collection" : {
+      "identifier" : {
+        "name" : "reverseId",
+        "type" : "string"
+      },
+      "supports" : [ "get" ],
+      "methods" : [ {
+        "method" : "get"
+      } ],
+      "entity" : {
+        "path" : "/reverse/{reverseId}"
+      }
+    }
+  }
+}

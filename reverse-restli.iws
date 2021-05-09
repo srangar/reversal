@@ -2,50 +2,35 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cd40143d-a154-47b8-add2-017332ac2040" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/api/build/tmp/mainRestClientJar/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/reverse-restli.api.mainGeneratedRest.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/idl/com.srini.reversal.check.restspec.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/main/idl/com.srini.reversal.reverse.restspec.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/mainGeneratedRest/java/com/srini/reversal/AnagramBuilders.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/mainGeneratedRest/java/com/srini/reversal/AnagramGetBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/mainGeneratedRest/java/com/srini/reversal/AnagramGetRequestBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/mainGeneratedRest/java/com/srini/reversal/AnagramRequestBuilders.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/mainGeneratedRest/java/com/srini/reversal/CheckBuilders.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/mainGeneratedRest/java/com/srini/reversal/CheckRequestBuilders.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/mainGeneratedRest/java/com/srini/reversal/LowercaseBuilders.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/mainGeneratedRest/java/com/srini/reversal/LowercaseGetBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/mainGeneratedRest/java/com/srini/reversal/LowercaseGetRequestBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/mainGeneratedRest/java/com/srini/reversal/LowercaseRequestBuilders.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/mainGeneratedRest/java/com/srini/reversal/PalindromeBuilders.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/mainGeneratedRest/java/com/srini/reversal/PalindromeGetBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/mainGeneratedRest/java/com/srini/reversal/PalindromeGetRequestBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/mainGeneratedRest/java/com/srini/reversal/PalindromeRequestBuilders.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/mainGeneratedRest/java/com/srini/reversal/ReverseBuilders.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/mainGeneratedRest/java/com/srini/reversal/ReverseGetBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/mainGeneratedRest/java/com/srini/reversal/ReverseGetRequestBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/mainGeneratedRest/java/com/srini/reversal/ReverseRequestBuilders.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/mainGeneratedRest/java/com/srini/reversal/UppercaseBuilders.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/mainGeneratedRest/java/com/srini/reversal/UppercaseGetBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/mainGeneratedRest/java/com/srini/reversal/UppercaseGetRequestBuilder.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api/src/mainGeneratedRest/java/com/srini/reversal/UppercaseRequestBuilders.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/build/tmp/jar/MANIFEST.MF" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/reverse-restli.client.main.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/reverse-restli.client.test.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/main/java/com/srini/reversal/RestLiClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/build/reports/checkRestModel/summary.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/mainGeneratedRest/idl/com.srini.reversal.check.restspec.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/mainGeneratedRest/idl/com.srini.reversal.reverse.restspec.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/mainGeneratedRest/snapshot/com.srini.reversal.check.snapshot.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/server/src/mainGeneratedRest/snapshot/com.srini.reversal.reverse.snapshot.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/build/mainSchemas/com/srini/reversal/Decrypted.pdsc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/build/mainSchemas/com/srini/reversal/Encrypted.pdsc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/idl/com.srini.reversal.decrypt.restspec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/idl/com.srini.reversal.encrypt.restspec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/pegasus/com/srini/reversal/Decrypted.pdl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/pegasus/com/srini/reversal/Encrypted.pdl" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/snapshot/com.srini.reversal.check.snapshot.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/snapshot/com.srini.reversal.decrypt.snapshot.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/snapshot/com.srini.reversal.encrypt.snapshot.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/main/snapshot/com.srini.reversal.reverse.snapshot.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/mainGeneratedDataTemplate/java/com/srini/reversal/Decrypted.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api/src/mainGeneratedDataTemplate/java/com/srini/reversal/Encrypted.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/build/tmp/jar/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/build/tmp/testDataTemplateJar/MANIFEST.MF" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/com/srini/reversal/Cipher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/com/srini/reversal/DecryptResource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/main/java/com/srini/reversal/EncryptResource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/mainGeneratedRest/idl/com.srini.reversal.decrypt.restspec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/mainGeneratedRest/idl/com.srini.reversal.encrypt.restspec.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/mainGeneratedRest/snapshot/com.srini.reversal.decrypt.snapshot.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/server/src/mainGeneratedRest/snapshot/com.srini.reversal.encrypt.snapshot.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/build/generateDataTemplate/api-pathing.jar" beforeDir="false" afterPath="$PROJECT_DIR$/api/build/generateDataTemplate/api-pathing.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/api/build/libs/api-data-template.jar" beforeDir="false" afterPath="$PROJECT_DIR$/api/build/libs/api-data-template.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api/build/libs/api.jar" beforeDir="false" afterPath="$PROJECT_DIR$/api/build/libs/api.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/reverse-restli.ipr" beforeDir="false" afterPath="$PROJECT_DIR$/reverse-restli.ipr" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/reverse-restli.iws" beforeDir="false" afterPath="$PROJECT_DIR$/reverse-restli.iws" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/build/classes/java/main/com/srini/reversal/ReversedWord$Fields.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/build/classes/java/main/com/srini/reversal/ReversedWord.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/server/build/libs/server-data-template.jar" beforeDir="false" afterPath="$PROJECT_DIR$/server/build/libs/server-data-template.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/srini/reversal/ReversedWord.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/srini/reversal/StringCheck.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/build/reports/checkRestModel/summary.txt" beforeDir="false" afterPath="$PROJECT_DIR$/server/build/reports/checkRestModel/summary.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -122,6 +107,12 @@
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="reverse-restli" type="f1a62948:ProjectNode" />
                 <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="reverse-restli" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
                 <item name="other" type="c8890929:TasksNode$1" />
               </path>
             </expand>
@@ -174,6 +165,9 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="JAVA" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/server/src/main/java/com/srini/reversal" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
   <component name="RecentsManager">
@@ -362,10 +356,18 @@
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="207" y="23" key="#Project_Structure" timestamp="1620593884032">
+      <screen x="0" y="23" width="1440" height="837" />
+    </state>
+    <state x="207" y="23" key="#Project_Structure/0.23.1440.837@0.23.1440.837" timestamp="1620593884032" />
     <state x="440" y="242" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1620183586045">
       <screen x="0" y="23" width="1440" height="837" />
     </state>
     <state x="440" y="242" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1440.837@0.23.1440.837" timestamp="1620183586045" />
+    <state x="352" y="112" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1620594724263">
+      <screen x="0" y="23" width="1440" height="837" />
+    </state>
+    <state x="352" y="112" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.23.1440.837@0.23.1440.837" timestamp="1620594724263" />
     <state x="458" y="187" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1620244304654">
       <screen x="0" y="23" width="1440" height="836" />
     </state>
@@ -376,26 +378,26 @@
     </state>
     <state x="288" y="23" key="CommitChangelistDialog2/0.23.1440.836@0.23.1440.836" timestamp="1620244451092" />
     <state x="288" y="23" width="863" height="837" key="CommitChangelistDialog2/0.23.1440.837@0.23.1440.837" timestamp="1620185580044" />
-    <state width="1358" height="198" key="GridCell.Tab.0.bottom" timestamp="1620244906208">
-      <screen x="0" y="23" width="1440" height="836" />
+    <state width="1358" height="198" key="GridCell.Tab.0.bottom" timestamp="1620531072428">
+      <screen x="0" y="23" width="1440" height="837" />
     </state>
     <state width="1358" height="198" key="GridCell.Tab.0.bottom/0.23.1440.836@0.23.1440.836" timestamp="1620244906208" />
-    <state width="1358" height="198" key="GridCell.Tab.0.bottom/0.23.1440.837@0.23.1440.837" timestamp="1620194940282" />
-    <state width="1358" height="198" key="GridCell.Tab.0.center" timestamp="1620244906207">
-      <screen x="0" y="23" width="1440" height="836" />
+    <state width="1358" height="198" key="GridCell.Tab.0.bottom/0.23.1440.837@0.23.1440.837" timestamp="1620531072428" />
+    <state width="1358" height="198" key="GridCell.Tab.0.center" timestamp="1620531072427">
+      <screen x="0" y="23" width="1440" height="837" />
     </state>
     <state width="1358" height="198" key="GridCell.Tab.0.center/0.23.1440.836@0.23.1440.836" timestamp="1620244906207" />
-    <state width="1358" height="198" key="GridCell.Tab.0.center/0.23.1440.837@0.23.1440.837" timestamp="1620194940280" />
-    <state width="1358" height="198" key="GridCell.Tab.0.left" timestamp="1620244906206">
-      <screen x="0" y="23" width="1440" height="836" />
+    <state width="1358" height="198" key="GridCell.Tab.0.center/0.23.1440.837@0.23.1440.837" timestamp="1620531072427" />
+    <state width="1358" height="198" key="GridCell.Tab.0.left" timestamp="1620531072427">
+      <screen x="0" y="23" width="1440" height="837" />
     </state>
     <state width="1358" height="198" key="GridCell.Tab.0.left/0.23.1440.836@0.23.1440.836" timestamp="1620244906206" />
-    <state width="1358" height="198" key="GridCell.Tab.0.left/0.23.1440.837@0.23.1440.837" timestamp="1620194940280" />
-    <state width="1358" height="198" key="GridCell.Tab.0.right" timestamp="1620244906207">
-      <screen x="0" y="23" width="1440" height="836" />
+    <state width="1358" height="198" key="GridCell.Tab.0.left/0.23.1440.837@0.23.1440.837" timestamp="1620531072427" />
+    <state width="1358" height="198" key="GridCell.Tab.0.right" timestamp="1620531072428">
+      <screen x="0" y="23" width="1440" height="837" />
     </state>
     <state width="1358" height="198" key="GridCell.Tab.0.right/0.23.1440.836@0.23.1440.836" timestamp="1620244906207" />
-    <state width="1358" height="198" key="GridCell.Tab.0.right/0.23.1440.837@0.23.1440.837" timestamp="1620194940281" />
+    <state width="1358" height="198" key="GridCell.Tab.0.right/0.23.1440.837@0.23.1440.837" timestamp="1620531072428" />
     <state width="1358" height="247" key="GridCell.Tab.1.bottom" timestamp="1620184535010">
       <screen x="0" y="23" width="1440" height="837" />
     </state>

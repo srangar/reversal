@@ -1,0 +1,11 @@
+{
+  "type" : "record",
+  "name" : "Decrypted",
+  "namespace" : "com.srini.reversal",
+  "doc" : "Generate a Reversed Word Response",
+  "fields" : [ {
+    "name" : "decrypted",
+    "type" : "string",
+    "doc" : "The Decrypted String"
+  } ]
+}

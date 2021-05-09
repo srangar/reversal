@@ -1,0 +1,20 @@
+{
+  "name" : "encrypt",
+  "namespace" : "com.srini.reversal",
+  "path" : "/encrypt",
+  "schema" : "com.srini.reversal.Encrypted",
+  "doc" : "Simple Rest.li Resource that serves up a encrypted word\n\ngenerated from: com.srini.reversal.EncryptResource",
+  "collection" : {
+    "identifier" : {
+      "name" : "encryptId",
+      "type" : "string"
+    },
+    "supports" : [ "get" ],
+    "methods" : [ {
+      "method" : "get"
+    } ],
+    "entity" : {
+      "path" : "/encrypt/{encryptId}"
+    }
+  }
+}
